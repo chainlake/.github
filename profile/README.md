@@ -1,14 +1,32 @@
-## Hi there 👋
+# ChainLake
 
-ChainLake is a real-time blockchain lakehouse infrastructure designed for multi-chain ingestion, semantic transformation, and analytical workloads.
+Real-time blockchain lakehouse infrastructure for ingestion, transformation and analytics.
 
-<!--
+ChainLake is an open infrastructure project for building production-grade blockchain data systems across multiple chains.
 
-**Here are some ideas to get you started:**
+## Core Modules
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+* **chainlake-ingest** → RPC ingestion and event extraction
+* **chainlake-stream** → Real-time stream processing and semantic decoding
+* **chainlake-analytics** → Analytical warehouse and BI schema
+* **chainlake-docs** → Architecture, roadmap, and technical documentation
+
+## Design Principles
+
+* Multi-chain first
+* Immutable event-driven pipeline
+* Real-time + replayable architecture
+* Semantic-ready analytics layer
+
+## Planned Capabilities
+
+* Multi-RPC failover and retry
+* Reorg-safe ingestion
+* Kafka event bus
+* Flink semantic processing
+* ClickHouse analytical serving
+* ABI intelligence layer
+
+## Long-term Vision
+
+Build a self-hosted blockchain lakehouse for developers, analysts, and strategy systems.
