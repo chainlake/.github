@@ -1,8 +1,8 @@
-# ChainLake
+# Chainlake
 
 Real-time blockchain lakehouse infrastructure for ingestion, transformation and analytics.
 
-ChainLake is an open infrastructure project for building production-grade blockchain data systems across multiple chains.
+Chainlake is an infrastructure project for building production-grade blockchain data systems across multiple chains.
 
 ## Core Modules
 
