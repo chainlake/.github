@@ -2,6 +2,48 @@
 
 ### Semantic Data Platform for Onchain Intelligence
 
+```mermaid
+flowchart LR
+
+    subgraph A[Execution Sources]
+        A1[Chain RPC]
+        A2[Archive Nodes]
+        A3[Block Streams]
+    end
+
+    subgraph B[Semantic Engine]
+        B1[Extractor + Stream Processing]
+        B2[Semantic Transformation]
+
+        subgraph C[Semantic Tables]
+            C1[semantic_transfer]
+            C2[semantic_swap]
+            C3[semantic_entity]
+        end
+    end
+
+    subgraph D[Intelligence Layer]
+        D1[Realtime Query API]
+        D2[Historical State]
+        D3[Intelligence Signals]
+    end
+
+    A1 --> B1
+    A2 --> B1
+    A3 --> B1
+
+    B1 --> B2
+
+    B2 --> C1
+    B2 --> C2
+    B2 --> C3
+
+    B1 --> D1
+    B2 --> D2
+    C3 --> D3
+```
+
+
 Chainlake is building a semantic data layer for blockchain systems — designed to transform raw onchain events into realtime, structured, queryable intelligence.
 
 We focus on turning blockchain execution data into high-level semantic objects such as:
