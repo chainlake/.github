@@ -43,18 +43,7 @@ flowchart LR
     C3 --> D3
 ```
 
-
-Chainlake is building a semantic data layer for blockchain systems — designed to transform raw onchain events into realtime, structured, queryable intelligence.
-
-We focus on turning blockchain execution data into high-level semantic objects such as:
-
-* transfers
-* swaps
-* liquidity events
-* wallet behaviors
-* protocol states
-
-instead of exposing only raw logs, traces, or transaction payloads.
+Chainlake transforms raw blockchain execution into semantic, queryable intelligence.
 
 ## Philosophy
 
