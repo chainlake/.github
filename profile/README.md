@@ -1,6 +1,6 @@
 # Chainlake
 
-### Semantic Data Platform for Onchain Intelligence
+### Blockchain semantic lakehouse for analytics, AI, and machine learning
 
 ```mermaid
 flowchart LR
